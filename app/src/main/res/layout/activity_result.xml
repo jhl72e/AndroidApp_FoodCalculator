@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/priceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10000"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="이 금액이면 당신은\n이런 것들을 소비할 수 있습니다!"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/drawable_border"
+        android:padding="5dp"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/applyButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="확인"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+</LinearLayout>

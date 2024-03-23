@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="dialog_itemKind">
+        <item>음식</item>
+        <item>생활용품</item>
+        <item>문화</item>
+        <item>기타</item>
+    </string-array>
+
+</resources>
